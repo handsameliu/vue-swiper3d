@@ -29,7 +29,7 @@
       let gap = leftGap / level
       lefts.forEach((e, i) => {
         let obj = {}
-        console.log('left', e.content)
+        // console.log('left', e.content)
         obj.content = e.content
         // obj.left = i * gap;
         obj.left = i * gap - that.curWidth + leftGap + gap * 2.5
@@ -43,7 +43,7 @@
       })
       rights.forEach((e, i) => {
         let obj = {}
-        console.log('right', e.content)
+        // console.log('right', e.content)
         obj.content = e.content
         obj.width = that.curWidth * Math.pow(that.scale, i)
         obj.height = that.curHeight * Math.pow(that.scale, i)
